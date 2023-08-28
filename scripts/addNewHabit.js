@@ -17,13 +17,13 @@ function addHabitField () {
         '                        <label for="app__habit-name-add-input"></label>\n' +
         '                        <input type="text" class="app__habit-name-add-input" id="app__habit-name-add-input" placeholder="Habit">\n' +
         '                    </div>\n' +
-        '                    <div class="app__habit-done section section-done"></div>\n' +
-        '                    <div class="app__habit-done section section-done"></div>\n' +
-        '                    <div class="app__habit-done section section-done"></div>\n' +
-        '                    <div class="app__habit-done section section-done"></div>\n' +
-        '                    <div class="app__habit-done section section-done"></div>\n' +
-        '                    <div class="app__habit-done section section-done"></div>\n' +
-        '                    <div class="app__habit-done section section-done"></div>';
+        '                    <button class="app__habit-done section section-done" onclick="doneHabit.call(this)"></button>\n' +
+        '                    <button class="app__habit-done section section-done" onclick="doneHabit.call(this)"></button>\n' +
+        '                    <button class="app__habit-done section section-done" onclick="doneHabit.call(this)"></button>\n' +
+        '                    <button class="app__habit-done section section-done" onclick="doneHabit.call(this)"></button>\n' +
+        '                    <button class="app__habit-done section section-done" onclick="doneHabit.call(this)"></button>\n' +
+        '                    <button class="app__habit-done section section-done" onclick="doneHabit.call(this)"></button>\n' +
+        '                    <button class="app__habit-done section section-done" onclick="doneHabit.call(this)"></button>';
 
     let app = document.querySelector('.app');
     app.append(habit);
