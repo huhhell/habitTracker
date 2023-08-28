@@ -92,6 +92,11 @@ html {
   -moz-border-radius: 8px;
   border-radius: 8px;
   cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+.section-done-true {
+  background-color: #8B5CF6;
+  border: 2px solid #A78BFA;
 }
 
 /*# sourceMappingURL=main.css.map */
