@@ -2,12 +2,15 @@ let addHabitButton = document.querySelector('.app__add');
 addHabitButton.addEventListener('click', addHabitField);
 
 let isHabitInputActive = false;
+let errorElement = document.querySelector('.app__error');
 
 function addHabitField () {
-    if (!isHabitInputActive) {
-        // change error field
+    if (isHabitInputActive) {
+        errorElement.innerHTML = 'error: adding field is already exists';
         return;
     }
+    errorElement.innerHTML = '';
+
     let habit = document.createElement('div');
     habit.classList.add('app__habit');
     habit.innerHTML = '<div class="app__habit-name-add">\n' +
@@ -32,7 +35,8 @@ function addHabitField () {
 
 function submitHabitField (e) {
     let habitName = e.target.value;
-    if (habitName === '') {} // add error field
+    if (habitName === '') return;
+    errorElement.innerHTML = ''
 
     let habit = e.target.parentNode.parentNode;
 

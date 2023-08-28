@@ -16,7 +16,7 @@ html {
   margin-bottom: 20px;
 }
 .app__add {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background-color: #18181B;
   border: 1px solid #27272A;
   padding: 15px 25px;
@@ -28,6 +28,13 @@ html {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+}
+.app__error {
+  height: 30px;
+  font-size: 20px;
+  line-height: normal;
+  color: red;
+  margin-bottom: 50px;
 }
 .app__dates {
   display: grid;
