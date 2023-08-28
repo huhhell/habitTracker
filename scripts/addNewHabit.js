@@ -50,5 +50,6 @@ function submitHabitField (e) {
     isHabitInputActive = false;
 
     e.target.removeEventListener('change', submitHabitField);
+    habitTitleElement.addEventListener('click', changeHabit);
 }
 
