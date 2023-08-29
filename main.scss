@@ -42,24 +42,29 @@ html {
     margin-bottom: 50px;
   }
 
-  &__container {}
+  &__container {
+  }
+
   &__dates {
     display: grid;
     grid-template: 64px / 100px repeat(7, 64px);
     column-gap: 48px;
     margin-bottom: 24px;
   }
+
   &__dates-item, &__dates-item-empty {
     color: #A1A1AA;
     font-size: 20px;
     text-align: center;
   }
+
   &__habit {
     display: grid;
     grid-template: 64px / 100px repeat(7, 64px);
     column-gap: 48px;
     margin-bottom: 24px;
   }
+
   &__habit-name {
     font-size: 20px;
     text-align: center;
@@ -92,7 +97,8 @@ html {
     }
   }
 
-  &__habit-done {}
+  &__habit-done {
+  }
 }
 
 .section {

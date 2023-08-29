@@ -20,10 +20,10 @@ function changeHabit(e) {
 
     e.target.remove();
 
-    changeInputElement.addEventListener('change', changeHabitField);
+    changeInputElement.addEventListener('blur', changeHabitField);
 }
 
-function changeHabitField (e) {
+function changeHabitField(e) {
     if (e.target.value === '') return;
     errorElement.innerHTML = '';
 

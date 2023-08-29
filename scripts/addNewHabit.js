@@ -30,7 +30,7 @@ function addHabitField () {
     isHabitInputActive = true;
 
     let inputHabitField = document.querySelector('.app__habit-name-add-input');
-    inputHabitField.addEventListener('change', submitHabitField);
+    inputHabitField.addEventListener('blur', submitHabitField);
 }
 
 function submitHabitField (e) {
