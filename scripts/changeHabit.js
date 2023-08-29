@@ -9,7 +9,7 @@ function changeHabit(e) {
     let changeFieldElement = document.createElement('div');
     changeFieldElement.classList.add('app__habit-name-add');
     changeFieldElement.innerHTML = '  <label for="app__habit-name-add-input"></label>\n' +
-        '                       <input type="text" class="app__habit-name-add-input" id="app__habit-name-add-input" placeholder="habit">';
+        '                       <input type="text" class="app__habit-name-add-input" id="app__habit-name-add-input" placeholder="Habit">';
 
 
     let habit = e.target.parentNode;
